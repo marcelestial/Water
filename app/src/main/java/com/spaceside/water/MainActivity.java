@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,8 +20,12 @@ public class MainActivity extends AppCompatActivity {
         //is the view now checked?
         boolean checked = ((CheckBox) view).isChecked();
 
+        Calendar c = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat("hh:mm a");
+        String datetime = sdf.format(c.getTime());
+
         if(checked)
-            ((CheckBox) view).setText(Calendar.getInstance().getTime().toString());
+            ((CheckBox) view).setText(datetime);
         else
             ((CheckBox) view).setText("");
     }

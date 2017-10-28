@@ -25,49 +25,57 @@
             android:id="@+id/check_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked" />
+            android:onClick="onCheckboxClicked"
+            android:textSize="24sp"/>
 
         <CheckBox
             android:id="@+id/check_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked" />
+            android:onClick="onCheckboxClicked"
+            android:textSize="24sp"/>
 
         <CheckBox
             android:id="@+id/check_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked" />
+            android:onClick="onCheckboxClicked"
+            android:textSize="24sp"/>
 
         <CheckBox
             android:id="@+id/check_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked" />
+            android:onClick="onCheckboxClicked"
+            android:textSize="24sp"/>
 
         <CheckBox
             android:id="@+id/check_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked" />
+            android:onClick="onCheckboxClicked"
+            android:textSize="24sp"/>
 
         <CheckBox
             android:id="@+id/check_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked" />
+            android:onClick="onCheckboxClicked"
+            android:textSize="24sp"/>
 
         <CheckBox
             android:id="@+id/check_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked" />
+            android:onClick="onCheckboxClicked"
+            android:textSize="24sp"/>
 
         <CheckBox
             android:id="@+id/check_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onCheckboxClicked" />
+            android:onClick="onCheckboxClicked"
+            android:textSize="24sp" />
 
     </LinearLayout>
 
